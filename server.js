@@ -22,51 +22,51 @@ const quizQuestions = {
       correctAnswer: "3%",
     },
     {
-      id:3,
-      question:"How long should you wash your hands with soap to effectively remove germs?",
-      options: ["5 seconds","10 seconds","20 seconds","1 minute"],
+      id: 3,
+      question: "How long should you wash your hands with soap to effectively remove germs?",
+      options: ["5 seconds", "10 seconds", "20 seconds", "1 minute"],
       correctAnswer: "20 seconds",
     },
     {
       id: 4,
-      question:"What is the main cause of water pollution in urban areas?",
-      options: ["Air pollution","Industrial waste","Noise pollution","Soil erosion"],
+      question: "What is the main cause of water pollution in urban areas?",
+      options: ["Air pollution", "Industrial waste", "Noise pollution", "Soil erosion"],
       correctAnswer: "Industrial waste",
     },
     {
       id: 5,
       question: "Why is it important to use a toilet instead of open defecation?",
-      options: ["To keep the environment clean","To prevent diseases","To maintain dignity and safety","All of the above"],
+      options: ["To keep the environment clean", "To prevent diseases", "To maintain dignity and safety", "All of the above"],
       correctAnswer: "All of the above",
     },
     {
       id: 6,
       question: "What is the best way to save water while washing clothes?",
-      options: ["Using a running tap","Using a washing machine with a full load","Washing each item separately","Using warm water"],
+      options: ["Using a running tap", "Using a washing machine with a full load", "Washing each item separately", "Using warm water"],
       correctAnswer: "Using a washing machine with a full load",
     },
     {
       id: 7,
       question: "What is the primary reason for handwashing before eating?",
-      options: ["To keep hands soft","To remove germs and prevent illness","To save water","To make food taste better"],
+      options: ["To keep hands soft", "To remove germs and prevent illness", "To save water", "To make food taste better"],
       correctAnswer: "To remove germs and prevent illness",
     },
     {
       id: 8,
       question: "Which disease is commonly spread through contaminated water?",
-      options: ["Malaria","Cholera","Diabetes","Asthma"],
+      options: ["Malaria", "Cholera", "Diabetes", "Asthma"],
       correctAnswer: "Cholera",
     },
     {
       id: 9,
       question: "Which of these helps save water at home?",
-      options: ["Taking shorter showers","Watering plants in the afternoon","Washing cars with a hose","Leaving taps slightly open"],
+      options: ["Taking shorter showers", "Watering plants in the afternoon", "Washing cars with a hose", "Leaving taps slightly open"],
       correctAnswer: "Taking shorter showers",
     },
     {
       id: 10,
       question: "What is greywater?",
-      options: ["Dirty water from sewage","Wastewater from sinks, showers, and washing machines","Polluted water in rivers","Water that looks grey due to chemicals"],
+      options: ["Dirty water from sewage", "Wastewater from sinks, showers, and washing machines", "Polluted water in rivers", "Water that looks grey due to chemicals"],
       correctAnswer: "Wastewater from sinks, showers, and washing machines",
     },
   ],
@@ -83,7 +83,7 @@ const quizQuestions = {
       correctAnswer: "Fix the leak or inform an adult to repair it",
     },
     {
-      id:12,
+      id: 12,
       question: "Your friend washes their hands but does not use soap. How would you explain the importance of soap in handwashing?",
       options: [
         "Soap removes germs and bacteria that water alone cannot",
@@ -110,7 +110,7 @@ const quizQuestions = {
       options: [
         "Explain how poor sanitation leads to diseases and affects students’ health",
         "Say nothing and let the school continue as it is",
-        "Say nothing and let the school continue as it is",
+        "Tell students to go home whenever they need to use the toilet",
         "Wait for someone else to complain"
       ],
       correctAnswer: "Explain how poor sanitation leads to diseases and affects students’ health",
@@ -143,7 +143,7 @@ const quizQuestions = {
       options: [
         "Let them continue since water is unlimited",
         "Teach them to turn off the tap while brushing",
-        "Let them continue since water is unlimited",
+        "Suggest using hot water instead",
         "Tell them to use more toothpaste instead of saving water"
       ],
       correctAnswer: "Teach them to turn off the tap while brushing",
@@ -256,5 +256,5 @@ app.get("/questions", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
